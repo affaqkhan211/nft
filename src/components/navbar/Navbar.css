@@ -1,0 +1,27 @@
+.logo{
+    height : 70px;
+    width : 70px
+}
+
+.navbar-nav{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.navbar-nav li{
+    margin-right: 8px;
+}
+
+.btn-navbar{
+    padding: 8px;
+    background-color: #2a56ff;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-navbar:hover{
+    background-color: #0b258f;
+    color: white;
+}
+

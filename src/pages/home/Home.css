@@ -1,0 +1,35 @@
+.left-col{
+    height: 300px;
+    padding: 20px;
+    background: linear-gradient(to right, #160042, #753a88);
+    border-radius: 20px;
+}
+
+.home-topbar{
+    margin-top: 80px;
+}
+
+.home-btns{
+    margin-top: 70px;
+}
+
+.categories-img{
+    width: 130px;
+    height: 130px;
+}
+
+.category-name{
+    font-size: 20px!important;
+    font-weight: bold!important;
+    margin-top: 8px;
+}
+
+.developer-img{
+    width: 80px;
+    height: 80px;
+}
+
+.projects-img{
+    width: 150px;
+    height : 150px
+}
