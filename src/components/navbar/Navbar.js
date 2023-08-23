@@ -20,13 +20,13 @@ const Navbar = () => {
             <Link class="nav-link active white-color" style={{color : "white"}} to = "/projects">Projects</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link active white-color" to = "/about">About Us</Link>
+            <Link class="nav-link active white-color" to = "/about-us">About Us</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link active white-color" to = "/terms-and-conditions">Terms & Conditions</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link active white-color" to = "/contact">Contact</Link>
+            <Link class="nav-link active white-color" to = "/contact-us">Contact</Link>
           </li>
         </ul>
         <form class="d-flex" role="search">

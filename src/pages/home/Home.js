@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { projects, topCategories, topDevelopers } from "../../data";
+import { competitiveAdvantages, projects, technologies, topCategories, topDevelopers } from "../../data";
 
 const Home = () => {
   return (
@@ -68,23 +68,64 @@ const Home = () => {
           <hr className="white-color mt-3" />
 
           <div className="top-projects">
-                <div className="row">
-                    {
-                        projects.map((project) => (
-                            <div className="col-lg-3 col-md-3 col-sm-6 col-6 text-center">
-                                <img src={project.img} className="projects-img" alt="" />
-                                <h3 className="white-color mt-2 mb-2">{project.name}</h3>
-                                <button className="navbar-btn btn mt-2 mb-2">{project.button}</button>
-                            </div>
-                        ))
-                    }
-                </div>
+            <div className="row">
+              {
+                projects.map((project) => (
+                  <div className="col-lg-3 col-md-3 col-sm-6 col-6 text-center">
+                    <img src={project.img} className="projects-img" alt="" />
+                    <h3 className="white-color mt-2 mb-2">{project.name}</h3>
+                    <button className="navbar-btn btn mt-2 mb-2">{project.button}</button>
+                  </div>
+                ))
+              }
+            </div>
           </div>
         </div>
 
         <div className="technologies mt-5">
-                    <h1 className="white-color text-center">Technologies we work in</h1>
-                    <hr className="white-color mt-3" />
+          <h1 className="white-color text-center">Technologies we work in</h1>
+          <hr className="white-color mt-5" />
+
+          <div className="row">
+
+          {
+            technologies.map((technology) => (
+              <div className="col-lg-4 col-md-4 col-sm-12 text-center">
+                <img src={technology.img} alt="" className="tech-img" />
+              </div>
+            ))
+          }
+          </div>
+        </div>
+
+        <div className="competitive-advantages mt-5">
+          <h1 className="white-color text-center">Competitive Advantages</h1>
+          <hr className="white-color mt-5" />
+
+          <div className="row">
+            {
+              competitiveAdvantages.map((comp) => (
+                <div className="col-lg-3 col-md-3 col-sm-12 text-center">
+                  <img src={comp.img} alt="" className="comp-img" />
+                  <h2 className="white-color">{comp.heading}</h2>
+                  <p className="white-color">{comp.desc}</p>
+                </div>
+              ))
+            }
+          </div>
+
+          <div className="row mt-4 mb-4">
+            <div className="col-lg-6 col-md-6 col-sm-12 text-center pt-4 pb-4" >
+              <img src="/images/metaverse2.jpg" alt="" style={{width : "400px", height : "300px"}} />
+            </div>
+
+            <div className="col-lg-6 col-md-6 col-sm-12 pt-5 pb-4">
+              <h1 className="white-color">Create, Sell, Well and collect your best NFTs with us very fast</h1>
+              <p className="white-color">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro qui id, facilis praesentium aperiam ducimus distinctio?</p>
+              <button className="btn btn-navbar">Connect Wallet</button>
+            </div>
+
+          </div>
         </div>
       </div>
     </>

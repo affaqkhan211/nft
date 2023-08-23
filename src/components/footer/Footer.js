@@ -35,13 +35,13 @@ const Footer = () => {
           <p className = "white-color">Mongodb</p>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-6">
-          <h5 className = "text-color mt-5">Subscribe to our Newsletter</h5>
+          <h5 className = "text-color mt-5 white-color mt-2 mb-2">Subscribe to our Newsletter</h5>
             <div className="input-group mb-3">
               <input type="text" className="form-control" placeholder="Enter your email" 
                 
                 
               />
-              <button className="btn contact-btn">Send</button>
+              <button className="btn btn-navbar">Send</button>
             </div>
           </div>
 

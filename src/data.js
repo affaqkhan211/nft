@@ -109,4 +109,51 @@ export const projects = [
         name : "AI Chat bots",
         button : "Visit"
     },
+];
+
+export const technologies = [
+    {
+        img : "/images/html.png"
+    },
+    {
+        img : "/images/figma.png"
+    },
+    {
+        img : "/images/mern.png"
+    },
+    {
+        img : "/images/redux.png"
+    },
+    {
+        img : "/images/node.png"
+    },
+    {
+        img : "/images/airtable.png"
+    },
+    {
+        img : "/images/apollo.png"
+    },
+];
+
+export const competitiveAdvantages = [
+    {
+        img : "/images/1.png",
+        heading : "Privacy Focused",
+        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, vero."
+    },
+    {
+        img : "/images/2.png",
+        heading : "Privacy Focused",
+        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, vero."
+    },
+    {
+        img : "/images/3.png",
+        heading : "Privacy Focused",
+        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, vero."
+    },
+    {
+        img : "/images/4.png",
+        heading : "Privacy Focused",
+        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, vero."
+    },
 ]
