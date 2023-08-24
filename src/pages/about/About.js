@@ -26,6 +26,21 @@ const About = () => {
           Your browser does not support the video tag.
         </video>
       </div>
+
+      <div className="about-card mt-5 mb-5" style = {{height : "400px"}}>
+
+        <div className="row">
+        <div className="col-lg-6 col-md-6 col-sm-12 text-center">
+            <img src="/images/metaverse5.jpg" className='mt-1' alt="" style={{width :"350px", height : "350px"}}/>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12 text-center mt-5">
+            <h2 className='white-color mt-5'>On a mission to environmental
+              sustainability with NFT's</h2>
+            <p className='white-color'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel ea beatae neque reiciendis sint Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo minima repellendus sapiente aliquid cum itaque.</p>
+          </div>
+          
+        </div>
+      </div>
     </div>
   )
 }
